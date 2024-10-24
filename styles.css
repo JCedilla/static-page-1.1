@@ -79,12 +79,69 @@
 }
 
 .para {
+    font-size: 18px;
     height:100px;
     width: 500px;
 }
 
+.btn {
+    height: 50px;
+    width: 100px;
+    background-color: #3882F6;
+    font-weight: 900;
+    border-radius: 10px;
+}
 
 .hero-img img {
     width:500px;
     height:300px;
+}
+
+/* info */
+.information {
+    height: 500px;
+    width: 100wh;
+    text-align: center;
+    padding: 50px;
+}
+
+.info-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.boxes {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+.box-content{
+    height: 300px;
+}
+
+.box-content p {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.card {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-content: space-evenly;
+    width: 200px;
+    height: 200px;
 }
