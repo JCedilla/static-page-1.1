@@ -179,10 +179,65 @@
 /* call to action  */
 
 .cta-container {
-    padding: 200px;
-    width: 500;
-    height: 600px;
+    width: 100vw;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center; 
+}
+
+.cta-box {
+    background-color: #3882f6;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.cta-box h1 {
+    font-weight: 900;
+    font-size: 36px;
+    font-style: italic;
+    height: 30px;
+}
+
+.cta-box p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cta-text {
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.cta-text h1{
+    height: 50px;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    border: 2px solid white;
+    font-size: 36px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width:200px;
+}
+
+/* copyright */
+
+.copyright {
+    width: 100vw;
+    height: 100px;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright h1 {
+    font-size: 12px;
 }
