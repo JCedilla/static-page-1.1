@@ -10,40 +10,36 @@
 /* Header  */
 
 .header {
-    height: 200px;
     width: 100vw;
+    height: 75px; 
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 75px;
+    gap: 250px;
 }
 
-.header-text{
+.header-text,
+.header-links {
     display: flex;
+    align-items: center;
+}
+
+.header-text {
     padding: 2px;
-    align-items: center;
-    align-content: start;
 }
 
-.header-text h1{
-    padding-left: 500px;
-
-}
-
-.header-links{
+.header-links {
     font-size: 10px;
-    display: inline;
     color: black;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 500px;
+    gap: 10px; 
     cursor: pointer;
 }
-
-.header-links h1{ 
+  
+.header-links h1 {
     padding: 10px;
 }
+
 
 /* Hero  */
 
